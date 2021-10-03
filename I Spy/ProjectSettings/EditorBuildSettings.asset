@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ISpy_StartGame.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ISpy.unity
+    guid: 360ad88b20807bc43a69bd11d4f593c0
+  - enabled: 1
+    path: Assets/Scenes/ISpy_GameOver.unity
+    guid: 582989e6334099d4aa7f4a88774a41b5
   m_configObjects: {}
