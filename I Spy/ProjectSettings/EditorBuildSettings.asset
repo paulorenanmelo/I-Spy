@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ISpy_GameOver.unity
     guid: 582989e6334099d4aa7f4a88774a41b5
+  - enabled: 1
+    path: Assets/Scenes/ISpy_GameWin.unity
+    guid: 2d1e430d8914d1c4e8cf5d878ffd7133
   m_configObjects: {}

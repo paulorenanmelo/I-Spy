@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0374dbdb9b1b98b49b8757c9501fceab, type: 3}
   m_Name: book 24
   m_EditorClassIdentifier: 
-  Model: {fileID: 100000, guid: 1d8a5677c1af86845aaf8b37ef7358d4, type: 3}
+  Model: {fileID: 100000, guid: 9f618ed8ac70ac04c987226b33110a61, type: 3}
   clue:
-  - i
-  - id
-  - ide
+  - f
+  - for
+  - forgot

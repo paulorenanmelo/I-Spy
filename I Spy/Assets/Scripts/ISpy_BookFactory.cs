@@ -13,7 +13,7 @@ public class ISpy_BookFactory : MonoBehaviour
     [SerializeField] private ISpy_FactoryOutput factoryOutput;
     [SerializeField] private List<GameObject> spawnedBooks = new List<GameObject>();
 
-    void Start()
+    void Awake()
     {
         if (SpawnOnStart) Spawn();
     }

@@ -16,6 +16,7 @@ public class ISpy_Model : ISpy_ScriptableObject
         col.convex = true;
         //col.sharedMesh = go.GetComponent<MeshFilter>().sharedMesh;
         go.AddComponent<Rigidbody>();
+        Physics.BakeMesh(col.sharedMesh.GetInstanceID(), true);
 
         return go;
     }

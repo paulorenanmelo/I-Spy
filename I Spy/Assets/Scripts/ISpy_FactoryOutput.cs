@@ -9,28 +9,17 @@ public class ISpy_FactoryOutput : ISpy_ScriptableObject
     public ISpy_Model[] spawnedBooks;
     public ISpy_Model[] chosenBooks;
 
-    public void Clear()
+    public bool IsValidRuntime
     {
-        if (spawnedBooks != null) DestroyObjects(spawnedBooks);
-        if (chosenBooks != null) DestroyObjects(chosenBooks);
-        spawnedBooks = null;
-        chosenBooks = null;
+        get
+        {
+            return spawnedBooks != null && spawnedBooks.Length > 0 && chosenBooks != null && chosenBooks.Length > 0;
+        }
     }
 
-    /// <summary>
-    /// Todo: check if that crashes when unloading, quitting, changing application focus, etc.
-    /// </summary>
-    private void DestroyObjects(UnityEngine.Object[] objects)
+    public void Clear()
     {
-        if (objects != null)
-        {
-            for (int i = objects.Length - 1; i > 0; i--)
-            {
-                if (objects[i] != null)
-                {
-                    Destroy(objects[i]);
-                }
-            }
-        }
+        spawnedBooks = null;
+        chosenBooks = null;
     }
 }

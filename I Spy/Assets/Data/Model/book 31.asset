@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0374dbdb9b1b98b49b8757c9501fceab, type: 3}
   m_Name: book 31
   m_EditorClassIdentifier: 
-  Model: {fileID: 100000, guid: 1d8a5677c1af86845aaf8b37ef7358d4, type: 3}
+  Model: {fileID: 100000, guid: a69a535f955511c4b80762f5c23adba4, type: 3}
   clue:
-  - i
-  - id
-  - ide
+  - b
+  - bir
+  - birds
